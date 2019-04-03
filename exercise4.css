@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div {
+    width: 400px;
+    height: 100px;
+}
+
+.flag1{
+    background-color: black;
+    color: white
+}
+
+.flag2 {
+    background-color: red
+}
+
+.flag3 {
+    background-color: yellow;
+    background-image: url('https://i.pinimg.com/736x/72/b6/0a/72b60ac76a71e182af045053e33feb07.jpg');
+    background-repeat: repeat-x;
+    background-size: 100px 100px
+}

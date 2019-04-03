@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+}
+
+#img {
+    width: 100%;
+    height: 300px;
+}
+
+#container-infor {
+    margin: 20px 100px
+}
+
+#ava {
+    position: absolute;
+    top: 220px;
+    border: 1px solid black;
+    height: 162px;
+}
+
+#intro {
+    margin-top: 90px
+}
+
+#name {
+    font-size: 40px;
+    color: black;
+}
+
+#title {
+    margin-top: 20px
+}
+
+#info {
+    width: 95%;
+}
+
+#gmail {
+    margin-top: 20px;
+    margin-left: 100px
+}
+
+#facebook {
+    margin-left: 50px
+}

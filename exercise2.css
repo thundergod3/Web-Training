@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-head {
+    display: flex
+}
+
+#logo {
+    background-color: red;
+    width: 70px;
+    height: 65px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 22.5px
+}
+
+#website-heading {
+    background-color: green;
+    width: 200px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 22.5px
+}
+
+#menu {
+    background-color: yellow;
+    width: 270px;
+    height: 40px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 10px
+}
+
+#section {
+    display: flex;
+}
+
+#section1 {
+    background-color: blue;
+    width: 90px;
+    height: 80px;
+    text-align: center;
+    padding-top: 32px
+}
+
+#section2 {
+    background-color: gray;
+    width: 90px;
+    text-align: center;
+    padding-top: 32px
+}
+
+#section3 {
+    background-color: pink;
+    width: 90px;
+    text-align: center;
+    padding-top: 32px
+}
+
+#main {
+    display: flex
+}
+
+#content {
+    background-color: aqua;
+    width: 222px;
+    height: 200px;
+    text-align: center;
+    padding-top: 90px;
+    margin-left: 24px
+}
+
+#side-bar {
+    background-color: darkgoldenrod;
+    width: 15%;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#footer {
+    display: flex;
+    background-color: rgb(55, 55, 241);
+    width: 270px;
+    height: 40px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 80px
+}
